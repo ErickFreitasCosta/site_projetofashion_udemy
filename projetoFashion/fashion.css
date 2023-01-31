@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    
+}
+body{
+    font-family: tahoma,arial;
+    margin: 0;
+}
+header{
+    background-color: #162028;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+    
+}
+img{
+    width: 100%;
+}
+ul{
+    display: flex;
+    position: block;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
+    text-transform: uppercase;
+    color: #425564;
+
+    margin-right: 30px;
+}
+a:hover{
+    color: rgb(117, 113, 113);
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.901);
+    transition: color 0.9s linear;   /* Necessita disso para fazer o efeito*/
+}
+
+section{
+    margin-top: 60px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#box1{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    
+}
+#box2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* colocar o texto no meio*/
+    text-align: center;
+
+    line-height: 25px; /* Dá espaço entre as linhas*/
+
+    margin-right: 15%;
+    margin-left: 15%;
+    
+}
+
+.container2{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container3{
+    border:1px solid;
+    width: 700px;
+    height: 500px;
+
+    background-color: rgb(51, 51, 207);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-left: 100px;
+    background-image: url(imagens/bg_detalhe.png);
+    
+   
+
+    border-radius: 30%;
+
+}
+#titulo{
+    margin-top: 50px;
+}
+#box4{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    font-size: 50px;
+
+    padding-left: 40px ;
+}
+#paragrafo{
+    width: 350px;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+#box5{
+    color: white;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+}
+#box10{
+    color: rgb(29, 29, 109);
+ 
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    background-color: #162028;
+    height: 30px;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 2%;
+    margin-bottom: 0%;
+
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: small;
+    
+}
